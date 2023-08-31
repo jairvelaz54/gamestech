@@ -204,7 +204,7 @@ create table caja_sucursal
         foreign key (id_sucursal) references sucursal (id_sucursal)
 )
     engine = InnoDB;
-
+v
 create index id_sucursal
     on caja_sucursal (id_sucursal);
 
